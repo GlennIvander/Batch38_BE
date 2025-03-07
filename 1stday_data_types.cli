@@ -1,0 +1,72 @@
+Ubuntu shortcut
+delete ( ctrl + d )
+
+clear ( ctrl + l)
+
+mapunta sa pinaka left side ( ctrl a)
+pag kabila naman ( ctrl + e)
+pag hindi method. return sya, lalabas yung nil
+
+function (Frontend) = method (ruby)
+ex.
+function testApp () {}
+sa ruby
+method () {}
+
+IRB - interactive ruby
+
+my_name = "value"
+my_name = "new value"
+variable changes pag nag declare
+pero kapag ganire
+MY_NAME = "value"
+MY_NAME = error
+pag naka all caps, equivalent to const
+
+camelcase JS
+naming convention sa ruby (snake_case)
+
+Primitive, string, integer, boolean
+Non Primitive=> array, object, date
+
+==
+java.
+object_id (locator)
+and value
+ruby, only value chine check
+
+string uses "" or ''
+"" you can perform string interpolation
+'' 
+
+integer = whole number
+float = any number na may decimal
+boolean = true or false
+
+in JS == comparing the value
+=== comparing value and data type
+
+to know data type in ruby (value.class)
+
+== strict comparison
+=== is called case equality operator
+
+concatination (adding + to add string value)
+predicate method lahat ng 
+
+value.method
+
+value.? = predicate ang tawag. basta may question mark
+.empty? (gamit na gamit)
+bang method => !
+mutate/modifying or binabago nya value ng variable example
+name = "Glenn"
+name.upcase!()
+
+object./dot.method?/called
+# poetry mode => removing parenthesis of no value given
+a = 1
+a.empty? ()
+
+convert ng value class
+value.to_s/i/f (string,integer,float)
