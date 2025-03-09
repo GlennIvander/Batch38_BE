@@ -1,0 +1,10 @@
+value inside array called "ELEMENTS"
+index => positioning
+
+exlusive = ... exlude the last element
+inclusive = .. include the last element
+
+arr.length
+
+notes are available here: https://www.freecodecamp.org/news/common-array-methods-in-ruby/
+arr.push value = arr << value

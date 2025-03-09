@@ -63,7 +63,7 @@ mutate/modifying or binabago nya value ng variable example
 name = "Glenn"
 name.upcase!()
 
-object./dot.method?/called
+object.(dot).method() (called)
 # poetry mode => removing parenthesis of no value given
 a = 1
 a.empty? ()
