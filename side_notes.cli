@@ -1,0 +1,19 @@
+1. Variable = acts like a storage or div container
+name = "John" => name is the Variable
+
+2. Data Types
+a. String => Plain text, enclosed in quotation marks
+name = "John"
+
+b. Integer => Counting or Whole number, No quotation marks
+age = 15
+
+c. floats => number that has decimals
+grade = 3.2
+
+d. Boolean => return whether true or false. variable name normally starts with "is"
+is_male = true
+
+e. nil => gives no value for the moment
+flaws = nil
+
