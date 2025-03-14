@@ -1,0 +1,20 @@
+#control flow
+
+age = 28
+
+if age > 18
+  puts "you are young"
+elsif
+  puts ""
+elsif
+  puts ""
+else
+  puts ""
+end
+
+case
+  when
+  end
+end
+
+use ternary if true or false
