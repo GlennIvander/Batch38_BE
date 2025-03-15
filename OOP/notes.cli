@@ -1,0 +1,8 @@
+OOP - Object Oriented Programming
+
+class Employee
+de initialize (name, age, is_active)
+@e_name #instance variable, meaning pwede mo pang magamit accross the class
+
+4 Pillars of OOP
+Inheritance, Abstraction, Encapsulation, Polymorphism
