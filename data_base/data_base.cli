@@ -1,0 +1,14 @@
+data base = storage
+dbms - database management sytem => manages database (will install soon)
+
+2 Types of databases
+RDB (relational database)
+normally => 3 databases
+
+1. Development database => needed data befpre depliment / you can experiment here
+2. Test database => Use for testing
+3. Production database => live/golden database/contains actual customer data
+
+schema = structure
+
+PostgreSQL, MySQL, MariaSB, SQLite

@@ -1,12 +1,52 @@
-methods
+A method in Ruby always follows this structure:
 
-decleration
-name = "John"
-
-function/parameters
-def
-
+def method_name(parameters)
+  # code logic
+  return output  # (optional, since Ruby returns the last evaluated expression)
 end
 
-puts
-invoke/arguments
+def greet(name)
+  "Hello, #{name}!"
+end
+
+puts greet("Glenn")  # Output: "Hello, Glenn!"
+
+Always start with def
+Use meaningful names
+End with end
+Return value automatically (last line)
+
+Use map for transformations
+Use select for filtering
+Use each for iteration
+Use hashes for counting or storing values dynamically
+
+map
+numbers = [1, 2, 3, 4, 5]
+squared = numbers.map { |n| n ** 2 }
+puts squared  # Output: [1, 4, 9, 16, 25]
+
+select
+numbers = [10, 15, 20, 25, 30]
+evens = numbers.select { |n| n.even? }
+puts evens  # Output: [10, 20, 30]
+
+reject
+numbers = [10, 15, 20, 25, 30]
+odds = numbers.reject(&:even?)  # Removes even numbers
+puts odds  # Output: [15, 25]
+
+reduce/inject
+numbers = [1, 2, 3, 4, 5]
+sum = numbers.reduce(0) { |acc, num| acc + num }
+puts sum  # Output: 15
+
+each
+arr1 = ["Glenn", "Inah", "Utla", "Barbie"]
+arr2 = "Inah"
+
+arr1.each do |el|
+if el === arr2
+puts el
+end
+end
